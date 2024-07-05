@@ -4,4 +4,3 @@
 ./Silk/obj/**/*
 ./SilkSpeedTest/obj/**/*
 ./Test/obj/**/*
-nuget.config
