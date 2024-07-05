@@ -20,14 +20,11 @@ namespace SilkTest
         {
             await Task.Delay(1000);
             Assert.IsNotNull(_server.Value);
-            Console.WriteLine($"Server is running: {_server.Value?.IsRunning}");
         }
 
         [Test(Description = "Test Routes added")]
         public void RoutesAdded() {
             var routes = _server.Value?.RouterManager.RoutesList;
-
-            Console.WriteLine($"total routes: {routes?.Count}");
             Assert.Greater(routes?.Count, 0, $"total routes: {routes?.Count}");
         }
 

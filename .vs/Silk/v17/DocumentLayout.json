@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{5459B601-F3F3-486C-B3C6-3F1F499FFE80}|Test\\Test.csproj|solutionrelative:test\\methodstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5459B601-F3F3-486C-B3C6-3F1F499FFE80}|Test\\Test.csproj|c:\\users\\trase\\source\\repos\\silk\\silk-framework\\test\\hilariousdata\\pathstotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5459B601-F3F3-486C-B3C6-3F1F499FFE80}|Test\\Test.csproj|solutionrelative:test\\hilariousdata\\pathstotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5459B601-F3F3-486C-B3C6-3F1F499FFE80}|Test\\Test.csproj|c:\\users\\trase\\source\\repos\\silk\\silk-framework\\test\\basictest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5459B601-F3F3-486C-B3C6-3F1F499FFE80}|Test\\Test.csproj|solutionrelative:test\\basictest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -36,7 +32,7 @@
               "RelativeDocumentMoniker": "Test\\MethodsTest.cs",
               "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Test\\MethodsTest.cs",
               "RelativeToolTip": "Test\\MethodsTest.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAowEwAAAAxAAAA",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAIwDsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T10:00:12.42Z",
               "EditorCaption": ""
@@ -44,25 +40,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PathsToTest.cs",
-              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Test\\HilariousData\\PathsToTest.cs",
-              "RelativeDocumentMoniker": "Test\\HilariousData\\PathsToTest.cs",
-              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Test\\HilariousData\\PathsToTest.cs",
-              "RelativeToolTip": "Test\\HilariousData\\PathsToTest.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAEoAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T06:54:50.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "BasicTest.cs",
               "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Test\\BasicTest.cs",
               "RelativeDocumentMoniker": "Test\\BasicTest.cs",
               "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Test\\BasicTest.cs",
               "RelativeToolTip": "Test\\BasicTest.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowCIAAAAIAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wB8AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T06:49:12.083Z",
               "EditorCaption": ""
