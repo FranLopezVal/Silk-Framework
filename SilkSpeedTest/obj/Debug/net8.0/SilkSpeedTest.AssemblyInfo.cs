@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SilkSpeedTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+078d67c43252aec972056094db27a26a5b2e8796")]
 [assembly: System.Reflection.AssemblyProductAttribute("SilkSpeedTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SilkSpeedTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

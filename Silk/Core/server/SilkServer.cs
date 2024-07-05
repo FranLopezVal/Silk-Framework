@@ -36,11 +36,12 @@ namespace Silk
 
         private bool _isRunning = false;
 
-        internal RouterManager RouterManager => _routeHandler;
-        internal SilkConfiguration SilkConfiguration => _silkConfiguration;
+        public RouterManager RouterManager => _routeHandler;
+        public SilkConfiguration SilkConfiguration => _silkConfiguration;
 
         public bool IsSecure {  get; private set; }
         public bool IsRunning => _isRunning;
+
 
 
         /// <summary>

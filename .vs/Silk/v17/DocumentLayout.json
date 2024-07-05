@@ -1,62 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\trase\\source\\repos\\Silk\\",
+  "WorkspaceRootPath": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|c:\\users\\trase\\source\\repos\\silk\\silk\\data\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|solutionrelative:silk\\data\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5459B601-F3F3-486C-B3C6-3F1F499FFE80}|Test\\Test.csproj|c:\\users\\trase\\source\\repos\\silk\\silk-framework\\test\\basictest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5459B601-F3F3-486C-B3C6-3F1F499FFE80}|Test\\Test.csproj|solutionrelative:test\\basictest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|c:\\users\\trase\\source\\repos\\silk\\silk\\core\\server\\silkserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|solutionrelative:silk\\core\\server\\silkserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5459B601-F3F3-486C-B3C6-3F1F499FFE80}|Test\\Test.csproj|c:\\users\\trase\\source\\repos\\silk\\silk-framework\\test\\hilariousdata\\pathstotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5459B601-F3F3-486C-B3C6-3F1F499FFE80}|Test\\Test.csproj|solutionrelative:test\\hilariousdata\\pathstotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|c:\\users\\trase\\source\\repos\\silk\\silk\\log\\silkmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|c:\\users\\trase\\source\\repos\\silk\\silk-framework\\silk\\log\\silkmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|solutionrelative:silk\\log\\silkmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A6CE5C4-4978-4720-B3D8-16549454352E}|SilkSpeedTest\\SilkSpeedTest.csproj|c:\\users\\trase\\source\\repos\\silk\\silkspeedtest\\examples\\ormexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|c:\\users\\trase\\source\\repos\\silk\\silk-framework\\silk\\core\\server\\silkserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|solutionrelative:silk\\core\\server\\silkserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A6CE5C4-4978-4720-B3D8-16549454352E}|SilkSpeedTest\\SilkSpeedTest.csproj|c:\\users\\trase\\source\\repos\\silk\\silk-framework\\silkspeedtest\\examples\\ormexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A6CE5C4-4978-4720-B3D8-16549454352E}|SilkSpeedTest\\SilkSpeedTest.csproj|solutionrelative:silkspeedtest\\examples\\ormexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|c:\\users\\trase\\source\\repos\\silk\\silk\\silk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|solutionrelative:silk\\silk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|c:\\users\\trase\\source\\repos\\silk\\silk\\routes\\routermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|solutionrelative:silk\\routes\\routermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A6CE5C4-4978-4720-B3D8-16549454352E}|SilkSpeedTest\\SilkSpeedTest.csproj|c:\\users\\trase\\source\\repos\\silk\\silkspeedtest\\examples\\interactablehtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A6CE5C4-4978-4720-B3D8-16549454352E}|SilkSpeedTest\\SilkSpeedTest.csproj|solutionrelative:silkspeedtest\\examples\\interactablehtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|c:\\users\\trase\\source\\repos\\silk\\silk\\core\\server\\silkconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|solutionrelative:silk\\core\\server\\silkconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|c:\\users\\trase\\source\\repos\\silk\\silk\\database\\databasesimplementations\\sqliteimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|solutionrelative:silk\\database\\databasesimplementations\\sqliteimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|c:\\users\\trase\\source\\repos\\silk\\silk\\log\\silklogserverdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|solutionrelative:silk\\log\\silklogserverdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|c:\\users\\trase\\source\\repos\\silk\\silk\\database\\sql\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|solutionrelative:silk\\database\\sql\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|c:\\users\\trase\\source\\repos\\silk\\silk\\assets\\silk\\monitor\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|solutionrelative:silk\\assets\\silk\\monitor\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|c:\\users\\trase\\source\\repos\\silk\\silk\\assets\\silk\\monitor\\view.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|solutionrelative:silk\\assets\\silk\\monitor\\view.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|c:\\users\\trase\\source\\repos\\silk\\silk\\assets\\silk\\monitor\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|solutionrelative:silk\\assets\\silk\\monitor\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,180 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SilkServer.cs",
+              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Silk\\Core\\server\\SilkServer.cs",
+              "RelativeDocumentMoniker": "Silk\\Core\\server\\SilkServer.cs",
+              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Silk\\Core\\server\\SilkServer.cs",
+              "RelativeToolTip": "Silk\\Core\\server\\SilkServer.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAIAwwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T06:58:59.62Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InteractableHtml.cs",
-              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\SilkSpeedTest\\Examples\\InteractableHtml.cs",
-              "RelativeDocumentMoniker": "SilkSpeedTest\\Examples\\InteractableHtml.cs",
-              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\SilkSpeedTest\\Examples\\InteractableHtml.cs",
-              "RelativeToolTip": "SilkSpeedTest\\Examples\\InteractableHtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABJAAAA",
+              "DocumentIndex": 2,
+              "Title": "SilkMonitor.cs",
+              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Silk\\Log\\SilkMonitor.cs",
+              "RelativeDocumentMoniker": "Silk\\Log\\SilkMonitor.cs",
+              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Silk\\Log\\SilkMonitor.cs",
+              "RelativeToolTip": "Silk\\Log\\SilkMonitor.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAIwGwAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:23:29.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Silk.cs",
-              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Silk.cs",
-              "RelativeDocumentMoniker": "Silk\\Silk.cs",
-              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Silk.cs",
-              "RelativeToolTip": "Silk\\Silk.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:04:59.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SilkConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Core\\server\\SilkConfiguration.cs",
-              "RelativeDocumentMoniker": "Silk\\Core\\server\\SilkConfiguration.cs",
-              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Core\\server\\SilkConfiguration.cs",
-              "RelativeToolTip": "Silk\\Core\\server\\SilkConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:03:16.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SqLiteImplementation.cs",
-              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Database\\DatabasesImplementations\\SqLiteImplementation.cs",
-              "RelativeDocumentMoniker": "Silk\\Database\\DatabasesImplementations\\SqLiteImplementation.cs",
-              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Database\\DatabasesImplementations\\SqLiteImplementation.cs",
-              "RelativeToolTip": "Silk\\Database\\DatabasesImplementations\\SqLiteImplementation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:01:55.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "config.json",
-              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Data\\config.json",
-              "RelativeDocumentMoniker": "Silk\\Data\\config.json",
-              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Data\\config.json",
-              "RelativeToolTip": "Silk\\Data\\config.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-24T19:00:14.125Z",
+              "WhenOpened": "2024-07-05T06:57:02.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SilkLogServerData.cs",
-              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Log\\SilkLogServerData.cs",
-              "RelativeDocumentMoniker": "Silk\\Log\\SilkLogServerData.cs",
-              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Log\\SilkLogServerData.cs",
-              "RelativeToolTip": "Silk\\Log\\SilkLogServerData.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAWwBAAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T18:58:23.534Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SilkServer.cs",
-              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Core\\server\\SilkServer.cs",
-              "RelativeDocumentMoniker": "Silk\\Core\\server\\SilkServer.cs",
-              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Core\\server\\SilkServer.cs",
-              "RelativeToolTip": "Silk\\Core\\server\\SilkServer.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAAA8wHMAAAAUAAAA",
+              "Title": "PathsToTest.cs",
+              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Test\\HilariousData\\PathsToTest.cs",
+              "RelativeDocumentMoniker": "Test\\HilariousData\\PathsToTest.cs",
+              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Test\\HilariousData\\PathsToTest.cs",
+              "RelativeToolTip": "Test\\HilariousData\\PathsToTest.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowAIAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T12:48:48.099Z"
+              "WhenOpened": "2024-07-05T06:54:50.793Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RouterManager.cs",
-              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Routes\\RouterManager.cs",
-              "RelativeDocumentMoniker": "Silk\\Routes\\RouterManager.cs",
-              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Routes\\RouterManager.cs",
-              "RelativeToolTip": "Silk\\Routes\\RouterManager.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAcwD4AAAAIAAAA",
+              "DocumentIndex": 0,
+              "Title": "BasicTest.cs",
+              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Test\\BasicTest.cs",
+              "RelativeDocumentMoniker": "Test\\BasicTest.cs",
+              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Test\\BasicTest.cs",
+              "RelativeToolTip": "Test\\BasicTest.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T12:48:29.602Z"
+              "WhenOpened": "2024-07-05T06:49:12.083Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Sql.cs",
-              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Database\\SQL\\Sql.cs",
-              "RelativeDocumentMoniker": "Silk\\Database\\SQL\\Sql.cs",
-              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Database\\SQL\\Sql.cs",
-              "RelativeToolTip": "Silk\\Database\\SQL\\Sql.cs",
-              "ViewState": "AQIAAMoAAAAAAAAAAAAkwNEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T12:44:32.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SilkMonitor.cs",
-              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Log\\SilkMonitor.cs",
-              "RelativeDocumentMoniker": "Silk\\Log\\SilkMonitor.cs",
-              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Log\\SilkMonitor.cs",
-              "RelativeToolTip": "Silk\\Log\\SilkMonitor.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAAwF0AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T12:41:14.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "OrmExample.cs",
-              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\SilkSpeedTest\\Examples\\OrmExample.cs",
+              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\SilkSpeedTest\\Examples\\OrmExample.cs",
               "RelativeDocumentMoniker": "SilkSpeedTest\\Examples\\OrmExample.cs",
-              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\SilkSpeedTest\\Examples\\OrmExample.cs",
+              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\SilkSpeedTest\\Examples\\OrmExample.cs",
               "RelativeToolTip": "SilkSpeedTest\\Examples\\OrmExample.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T12:41:09.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "view.css",
-              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Assets\\silk\\monitor\\view.css",
-              "RelativeDocumentMoniker": "Silk\\Assets\\silk\\monitor\\view.css",
-              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Assets\\silk\\monitor\\view.css",
-              "RelativeToolTip": "Silk\\Assets\\silk\\monitor\\view.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKEAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-24T12:38:12.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "app.js",
-              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Assets\\silk\\monitor\\app.js",
-              "RelativeDocumentMoniker": "Silk\\Assets\\silk\\monitor\\app.js",
-              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Assets\\silk\\monitor\\app.js",
-              "RelativeToolTip": "Silk\\Assets\\silk\\monitor\\app.js",
-              "ViewState": "AQIAABYAAAAAAAAAAAAYwFEAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-24T12:15:30.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Assets\\silk\\monitor\\index.html",
-              "RelativeDocumentMoniker": "Silk\\Assets\\silk\\monitor\\index.html",
-              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Assets\\silk\\monitor\\index.html",
-              "RelativeToolTip": "Silk\\Assets\\silk\\monitor\\index.html",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAGgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-24T12:15:29.142Z"
             }
           ]
         }

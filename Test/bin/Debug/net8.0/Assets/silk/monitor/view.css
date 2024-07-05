@@ -1,0 +1,215 @@
+
+
+:root {
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --glass-background-color: rgba(255, 255, 255, 0.4);
+    --glass-border-radius: 16px;
+    --glass-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    --glass-backdrop-filter: blur(5px);
+    --glass-webkit-backdrop-filter: blur(5px);
+    --glass-border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    /*background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;*/
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-3 {
+    flex: 0 0 25%;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+}
+
+.card {
+    //background-color: #f8f9fa;
+    //border: 1px solid #e9ecef;
+    //border-radius: 0.25rem;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: var(--glass-box-shadow);
+    backdrop-filter: var(--glass-backdrop-filter);
+    -webkit-backdrop-filter: var(--glass-webkit-backdrop-filte);
+    background-color: var(--glass-background-color);
+    border-radius: var(--glass-border-radius);
+    border: var(--glass-border);
+}
+
+.card-header {
+    border-bottom: 1px solid #e9ecef;
+    padding: 0.75rem 1rem;
+    margin: -1rem -1rem 1rem -1rem;
+    background-color: var(--glass-background-color);
+    border-radius: var(--glass-border-radius);
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.table-container {
+    overflow-x: auto;
+    display: block;
+    height: 400px;
+    box-shadow: var(--glass-box-shadow);
+    backdrop-filter: var(--glass-backdrop-filter);
+    -webkit-backdrop-filter: var(--glass-webkit-backdrop-filte);
+    background-color: var(--glass-background-color);
+    border-radius: var(--glass-border-radius);
+    border: var(--glass-border);
+}
+
+.table-container-basic {
+    overflow: auto;
+    display: block;
+    max-height: 300px;
+}
+
+.table-logs {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-header {
+    position: sticky;
+    top: 0;
+    background-color: var(--dark);
+    color: var(--light);
+    border-bottom: 1px solid #e9ecef;
+    & th {
+        padding: 0.75rem 1rem;
+        text-align: left;
+        font-weight: bold;
+    }
+}
+
+.row-log {
+    border-bottom: 1px solid #e9ecef;
+    &.ERROR {
+        color: #dc3545;
+    }
+
+    &.WARNING {
+        color: #ffc107;
+    }
+
+    &.INFO {
+        color: #007bff;
+    }
+}
+
+
+
+
+
+
+
+
+
+// WAVES!!
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    //background: rgb(102,200,245);
+    background: linear-gradient(45deg, rgba(102, 200, 245, 1) 0%, rgba(144, 232, 224, 1) 28%, rgba(147, 219, 224, 1) 32%, rgba(143, 231, 225, 1) 34%, rgb(216 171 255) 51%, rgb(211 130 219) 62%, rgba(219, 114, 145, 1) 69%, rgba(255, 209, 0, 1) 100%);
+    overflow: hidden;
+    z-index: -100;
+}
+
+    section .air {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+        background-size: 1000px 100px
+    }
+
+        section .air.air1 {
+            animation: wave 30s linear infinite;
+            z-index: 1000;
+            opacity: 1;
+            animation-delay: 0s;
+            bottom: 0;
+        }
+
+        section .air.air2 {
+            animation: wave2 15s linear infinite;
+            z-index: 999;
+            opacity: 0.5;
+            animation-delay: -5s;
+            bottom: 10px;
+        }
+
+        section .air.air3 {
+            animation: wave 30s linear infinite;
+            z-index: 998;
+            opacity: 0.2;
+            animation-delay: -2s;
+            bottom: 15px;
+        }
+
+        section .air.air4 {
+            animation: wave2 5s linear infinite;
+            z-index: 997;
+            opacity: 0.7;
+            animation-delay: -5s;
+            bottom: 20px;
+        }
+
+@keyframes wave {
+    0% {
+        background-position-x: 0px;
+    }
+
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes wave2 {
+    0% {
+        background-position-x: 0px;
+    }
+
+    100% {
+        background-position-x: -1000px;
+    }
+}

@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Silk", "Silk\Silk.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SilkSpeedTest", "SilkSpeedTest\SilkSpeedTest.csproj", "{6A6CE5C4-4978-4720-B3D8-16549454352E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{5459B601-F3F3-486C-B3C6-3F1F499FFE80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6A6CE5C4-4978-4720-B3D8-16549454352E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A6CE5C4-4978-4720-B3D8-16549454352E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A6CE5C4-4978-4720-B3D8-16549454352E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5459B601-F3F3-486C-B3C6-3F1F499FFE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5459B601-F3F3-486C-B3C6-3F1F499FFE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5459B601-F3F3-486C-B3C6-3F1F499FFE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5459B601-F3F3-486C-B3C6-3F1F499FFE80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Francisco Llopis")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Fast Framework backend, Silk is the best :)")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.6.24")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+078d67c43252aec972056094db27a26a5b2e8796")]
 [assembly: System.Reflection.AssemblyProductAttribute("Silk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Silk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.6.24")]

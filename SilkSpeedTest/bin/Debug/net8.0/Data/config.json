@@ -14,7 +14,7 @@
     "EnableConsole": true
   },
   "Certificate": {
-    "KeyPath": "certs/key.pem",
+    "KeyPath": "if_not_exist_ignore_certification_for_https",
     "CertPath": "certs/cert.pem"
   },
   "UniqueThread": false,

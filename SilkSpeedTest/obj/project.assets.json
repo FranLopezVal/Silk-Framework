@@ -1240,11 +1240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\trase\\source\\repos\\Silk\\SilkSpeedTest\\SilkSpeedTest.csproj",
+      "projectUniqueName": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\SilkSpeedTest\\SilkSpeedTest.csproj",
       "projectName": "SilkSpeedTest",
-      "projectPath": "C:\\Users\\trase\\source\\repos\\Silk\\SilkSpeedTest\\SilkSpeedTest.csproj",
+      "projectPath": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\SilkSpeedTest\\SilkSpeedTest.csproj",
       "packagesPath": "C:\\Users\\trase\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\trase\\source\\repos\\Silk\\SilkSpeedTest\\obj\\",
+      "outputPath": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\SilkSpeedTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1267,8 +1267,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Silk.csproj": {
-              "projectPath": "C:\\Users\\trase\\source\\repos\\Silk\\Silk\\Silk.csproj"
+            "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Silk\\Silk.csproj": {
+              "projectPath": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Silk\\Silk.csproj"
             }
           }
         }
