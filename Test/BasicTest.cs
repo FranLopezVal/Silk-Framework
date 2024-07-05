@@ -5,16 +5,11 @@ namespace Test
 {
     public class BasicTest
     {
-        private static readonly AsyncLocal<SilkServer> _server = new AsyncLocal<SilkServer>(
-            async (s) => {
-                //s.CurrentValue?.StartAsync();
-                }
-            );
+        public static Lazy<SilkServer> _server = new Lazy<SilkServer>();
 
         [SetUp]
         public void Setup()
         {
-            _server.Value = new SilkServer();
             _server.Value?.StartAsync();
         }
 
