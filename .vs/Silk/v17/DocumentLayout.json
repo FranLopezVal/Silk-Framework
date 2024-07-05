@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|c:\\users\\trase\\source\\repos\\silk\\silk-framework\\silk\\silk.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}|Silk\\Silk.csproj|solutionrelative:silk\\silk.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5459B601-F3F3-486C-B3C6-3F1F499FFE80}|Test\\Test.csproj|c:\\users\\trase\\source\\repos\\silk\\silk-framework\\test\\methodstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5459B601-F3F3-486C-B3C6-3F1F499FFE80}|Test\\Test.csproj|solutionrelative:test\\methodstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,28 +31,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MethodsTest.cs",
-              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Test\\MethodsTest.cs",
-              "RelativeDocumentMoniker": "Test\\MethodsTest.cs",
-              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Test\\MethodsTest.cs",
-              "RelativeToolTip": "Test\\MethodsTest.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAIwDsAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T10:00:12.42Z",
+              "Title": "Silk",
+              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Silk\\Silk.csproj",
+              "RelativeDocumentMoniker": "Silk\\Silk.csproj",
+              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Silk\\Silk.csproj",
+              "RelativeToolTip": "Silk\\Silk.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-05T13:00:01.369Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MethodsTest.cs",
+              "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Test\\MethodsTest.cs",
+              "RelativeDocumentMoniker": "Test\\MethodsTest.cs",
+              "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Test\\MethodsTest.cs",
+              "RelativeToolTip": "Test\\MethodsTest.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAIwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T10:00:12.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BasicTest.cs",
               "DocumentMoniker": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Test\\BasicTest.cs",
               "RelativeDocumentMoniker": "Test\\BasicTest.cs",
               "ToolTip": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Test\\BasicTest.cs",
               "RelativeToolTip": "Test\\BasicTest.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wB8AAAASAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwB8AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T06:49:12.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T06:49:12.083Z"
             }
           ]
         }

@@ -1220,10 +1220,10 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "0.1.6.24",
     "restore": {
       "projectUniqueName": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Silk\\Silk.csproj",
-      "projectName": "Silk",
+      "projectName": "SilkFramework",
       "projectPath": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Silk\\Silk.csproj",
       "packagesPath": "C:\\Users\\trase\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\Silk\\obj\\",
@@ -1233,6 +1233,7 @@
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+        "C:\\Users\\trase\\source\\repos\\Silk\\Silk-Framework\\NuGet.Config",
         "C:\\Users\\trase\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1241,9 +1242,8 @@
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://nuget.pkg.github.com/FranLopezVal/index.json": {}
       },
       "frameworks": {
         "net8.0": {

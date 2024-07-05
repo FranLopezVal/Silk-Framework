@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Silk</id>
+    <version>1.0.0</version>
+    <authors>Silk</authors>
+    <description>Fast Framework backend, Silk is the best :)</description>
+    <copyright>Francisco Llopis</copyright>
+    <repository type="git" commit="b49dfa3bfbab5883793c67f52d83601d9bdc3da4" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="System.Data.SQLite" version="1.0.118" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\trase\source\repos\Silk\Silk-Framework\Silk\bin\Debug\net8.0\Silk.runtimeconfig.json" target="lib\net8.0\Silk.runtimeconfig.json" />
+    <file src="C:\Users\trase\source\repos\Silk\Silk-Framework\Silk\bin\Debug\net8.0\Silk.dll" target="lib\net8.0\Silk.dll" />
+  </files>
+</package>

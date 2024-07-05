@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Silk Monitor">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Silk">
+    <meta name="keywords" content="Silk, Monitor, Performance">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="1 days">
+    <meta name="language" content="English">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <meta name="googlebot" content="noodp">
+    <meta name="bingbot" content="noodp">
+    <meta name="msnbot" content="noodp">
+    <meta name="Slurp" content="noodp">
+    <meta name="teoma" content="noodp">
+    <meta name="alexa" content="noodp">
+    <meta name="yandex" content="noodp">
+    <meta name="baidu" content="noodp">
+    <meta name="duckduckgo" content="noodp">
+    <title> Silk Monitor </title>
+    <link rel="stylesheet" type="text/css" href="./view.css">
+    <script src="./app.js"></script>
+</head>
+<body>
+    <h1>Performance Monitor of Silk</h1>
+
+    <div class="table-container" id="logsTableContainer">
+        <table id="logsTable" class="table-logs">
+            <thead class="table-header">
+                <tr>
+                    <th>Date</th>
+                    <th>Id</th>
+                    <th>Level</th>
+                    <th>Message</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aqu� se agregar�n las filas de la tabla din�micamente -->
+            </tbody>
+        </table>
+        <div>
+            <input type="checkbox" id="autoRefresh" checked /> <label for="autoRefresh">Auto Refresh</label>
+            <input type="number" id="refreshTime" value="2" onchange="changeTime()" /> <label for="refreshTime">Refresh Time (Seconds)</label>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Server Information</h3>
+                </div>
+                <div class="card-body">
+                    <div>
+                        Server Name: <span id="serverName"></span>
+                    </div>
+                    <div>
+                        Server IP: <span id="serverIP"></span>
+                    </div>
+                    <div>
+                        Server Port: <span id="serverPort"></span>
+                    </div>
+                    <div>
+                        Server Running: <span id="serverStatus"></span>
+                    </div>
+                    <div>
+                        Server Version: <span id="serverVersion"></span>
+                    </div>
+                    <div>
+                        Server Uptime: <span id="serverUptime"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>Url list</h3>
+                </div>
+                <div class="table-container-basic" id="pathsContainer">
+                    <table id="pathTables" class="table-logs">
+                        <thead class="table-header">
+                            <tr>
+                                <th>URL</th>
+                                <th>Method</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Aqu� se agregar�n las filas de la tabla din�micamente -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <section>
+        <div class='air air1'></div>
+        <div class='air air2'></div>
+        <div class='air air3'></div>
+        <div class='air air4'></div>
+    </section>
+</body>
+</html>
