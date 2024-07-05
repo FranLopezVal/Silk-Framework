@@ -6,8 +6,22 @@
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <Description>Fast Framework backend, Silk is the best :)</Description>
-    <Copyright>Francisco Llopis</Copyright>
+    <Copyright>Francisco Llopis 2024</Copyright>
     <AssemblyVersion>0.1.6.24</AssemblyVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Silk Framework</Title>
+    <Authors>$(AssemblyName), Francisco Llopis</Authors>
+    <Company>$(Authors)</Company>
+    <PackageProjectUrl>https://github.com/FranLopezVal/Silk-Framework</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/FranLopezVal/Silk-Framework</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <FileVersion>0.1.6.24</FileVersion>
+    <Version>0.1.6.24</Version>
+    <Product>$(AssemblyName)Framework</Product>
+    <AssemblyName>$(MSBuildProjectName)Framework</AssemblyName>
+    <RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))Framework</RootNamespace>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -37,6 +51,13 @@
 
   <ItemGroup>
     <Folder Include="Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

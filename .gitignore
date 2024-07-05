@@ -1,0 +1,7 @@
+./Silk/bin
+./SilkSpeedTest/bin
+./Test/bin
+./Silk/obj
+./SilkSpeedTest/obj
+./Test/obj
+nuget.config
