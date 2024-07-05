@@ -1,4 +1,5 @@
 ﻿using Silk.Core;
+using System.Text;
 
 namespace Silk.http
 {
@@ -59,6 +60,10 @@ namespace Silk.http
         /// </summary>
         public Dictionary<string, string> QueryParams { get; private set; } = new Dictionary<string, string>();
 
+
+        public byte[] Content { get; internal set; } = new byte[0];
+        public string ContentAsString => Encoding.UTF8.GetString(Content);
+
         internal static Request Parse(string request, SilkConnection conn)
         {
             Request req = new Request();
@@ -96,6 +101,13 @@ namespace Silk.http
                     req.QueryParams[keyValue[0]] = keyValue.Length > 1 ? keyValue[1] : string.Empty;
                 }
             }
+
+            // set content
+            if (req.Method == POST || req.Method == PUT)
+            {
+                req.Content = Encoding.UTF8.GetBytes(lines[^1]);
+            }
+
 
             return req;
 

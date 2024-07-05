@@ -1,11 +1,11 @@
 using Silk;
 using Silk.Core.server;
 
-namespace Test
+namespace SilkTest
 {
     public class BasicTest
     {
-        public static Lazy<SilkServer> _server = new Lazy<SilkServer>();
+        private static Lazy<SilkServer> _server = new Lazy<SilkServer>();
 
         [SetUp]
         public async Task Setup()
@@ -30,7 +30,6 @@ namespace Test
             Console.WriteLine($"total routes: {routes?.Count}");
             Assert.Greater(routes?.Count, 0, $"total routes: {routes?.Count}");
         }
-
 
 
         [TearDown]

@@ -32,7 +32,7 @@ public class RouterManager
         RegisterAssetFolder();
     }
 
-    internal void AddRoute(Route route, Func<Request, Response> handler)
+    public void AddRoute(Route route, Func<Request, Response> handler)
     {
         routesList.Add(route, handler);
     }

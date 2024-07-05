@@ -6,7 +6,8 @@ using Silk.http;
 using Silk.Helpers;
 
 using SQLiteContext = Silk.ORM.SQLiteContext; // SQLiteContext is a class of Silk.ORM but exists a class with the same name in System.Data.SQLite
-using _ = Silk.Silk; // It is my fault, I'm named the class with the same name of the namespace hehe :)
+using _ = Silk.Silk;
+using Silk.SQL; // It is my fault, I'm named the class with the same name of the namespace hehe :)
 
 namespace SilkSpeedTest.Examples
 {
@@ -85,6 +86,8 @@ namespace SilkSpeedTest.Examples
             {
                 var product = new modelProducts { Name = "Producto magico", Price = 150 };
                 var user = new modelUsers { Name = "Usuario1", Pass = "1234" };
+
+                userRepository.CustomQuery(Sql.Select("*").From(userRepository.TableName).Where("Name = 'Usuario1'"));
 
                 productRepository.Insert(product); // Insert a unique product
                 userRepository.Insert(user); // Insert a unique user

@@ -7,7 +7,7 @@ using Silk.Helpers;
 
 using SQLiteContext = Silk.ORM.SQLiteContext;
 
-namespace Test.HilariousData
+namespace SilkTest
 {
     internal class PathsToTest
     {
@@ -18,18 +18,18 @@ namespace Test.HilariousData
 
             using (var productRepository = new Repository<SQLiteConnection, modelProducts>(new SQLiteContext(null)))
             {
-                var product = new modelProducts { Name = "Producto magico", Price = Int64.Parse(param) };
+                var product = new modelProducts { Name = "Product", Price = Int64.Parse(param) };
                 productRepository.Insert(product);
 
                 var product2 = productRepository.GetValues();
 
                 var result = product2.FirstOrDefault();
 
-                return Response.CreateHtmlResponse($"<h1>Prueba superada: {result?.Name}, {result?.Price}</h1>");
+                return Response.CreateHtmlResponse($"<h1>Test ok: {result?.Name}, {result?.Price}</h1>");
             }
         }
 
-        [Get("/products/json/")]
+        [Get("/products/json")]
         public static Response GET_JSON(Request req)
         {
             var context = new SQLiteContext(null);
@@ -39,7 +39,7 @@ namespace Test.HilariousData
             using (var userRepository = new Repository<SQLiteConnection, modelUsers>(context))
             {
                 // Create two models
-                var product = new modelProducts { Name = "Producto magico", Price = 150 };
+                var product = new modelProducts { Name = "Product", Price = 150 };
                 var user = new modelUsers { Name = "Usuario1", Pass = "1234" };
 
                 //Insert the models
@@ -58,6 +58,25 @@ namespace Test.HilariousData
             }
         }
 
+        [Post("/products/insert")]
+        public static Response POST_INSERT (Request req)
+        {
+            var context = new SQLiteContext(null);
+
+            var requestContent = req.ContentAsString;
+            Console.WriteLine(requestContent);
+            using (var userRepository = new Repository<SQLiteConnection, modelUsers>(context))
+            {
+                var json = JSON.Deserialize<modelUsers>(requestContent);
+
+                var user = new modelUsers { Name = json?.Name, Pass = json?.Pass };
+                userRepository.Insert(user);
+
+                return Response.CreateHtmlResponse($"User added: {json?.Name}");
+            }
+
+        }
+
         [Get("/products"), Streaming] //Test streaming
         public static Response GET_PRODUCTS(Request req)
         {
@@ -66,7 +85,7 @@ namespace Test.HilariousData
             using (var productRepository = new Repository<SQLiteConnection, modelProducts>(context))
             using (var userRepository = new Repository<SQLiteConnection, modelUsers>(context))
             {
-                var product = new modelProducts { Name = "Producto magico", Price = 150 };
+                var product = new modelProducts { Name = "Product", Price = 150 };
                 var user = new modelUsers { Name = "Usuario1", Pass = "1234" };
 
                 productRepository.Insert(product); // Insert a unique product

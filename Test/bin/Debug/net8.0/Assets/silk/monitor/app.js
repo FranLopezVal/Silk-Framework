@@ -160,14 +160,24 @@ const GetSilkUrls = async function () {
 
             const urlCell = row.insertCell(0);
             const methodCell = row.insertCell(1);
+            const actionCell = row.insertCell(2);
 
             urlCell.textContent = log.url;
             methodCell.textContent = log.method;
+            actionCell.innerHTML = `<button class="btn-link" onclick="OpenUrl('${log.url}')">Open</button>`;
 
             row.classList = 'row-log';
         });
     }
 }
+
+OpenUrl = function (url) {
+    window.open(url, '_blank');
+}
+
+
+
+
 
 GetSilkUrls();
 // RUNTIME
