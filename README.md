@@ -12,6 +12,7 @@
 - ORM system for responses
 
 ### How it works
+First! Require .net 8!!
 #### Initialization
   just import Silk Library into your project, like normal .dll library. 
 ```cs
