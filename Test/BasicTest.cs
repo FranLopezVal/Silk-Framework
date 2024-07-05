@@ -1,4 +1,5 @@
 using Silk;
+using Silk.Core.server;
 
 namespace Test
 {
@@ -10,12 +11,8 @@ namespace Test
         public void Setup()
         {
             _server = new SilkServer();
-            StartServer();
-        }
-
-        async Task StartServer()
-        {
-            await _server.StartAsync();
+            _server.SilkConfiguration.UniqueThread = true;
+            _server.StartAsync();
         }
 
         [Test(Description = "Load server")]
