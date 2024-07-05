@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Silk", "Silk\Silk.csproj", "{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SilkSpeedTest", "SilkSpeedTest\SilkSpeedTest.csproj", "{6A6CE5C4-4978-4720-B3D8-16549454352E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA17B675-A2E4-4F08-BC81-5C155DCA25B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A6CE5C4-4978-4720-B3D8-16549454352E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A6CE5C4-4978-4720-B3D8-16549454352E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A6CE5C4-4978-4720-B3D8-16549454352E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A6CE5C4-4978-4720-B3D8-16549454352E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAFE4CC7-BDFB-4A45-A262-FA1F638D4777}
+	EndGlobalSection
+EndGlobal

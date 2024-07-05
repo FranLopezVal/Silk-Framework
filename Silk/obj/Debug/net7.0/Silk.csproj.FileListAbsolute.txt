@@ -1,0 +1,11 @@
+C:\Users\trase\source\repos\Silk\Silk\obj\Debug\net7.0\Silk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trase\source\repos\Silk\Silk\obj\Debug\net7.0\Silk.AssemblyInfoInputs.cache
+C:\Users\trase\source\repos\Silk\Silk\obj\Debug\net7.0\Silk.AssemblyInfo.cs
+C:\Users\trase\source\repos\Silk\Silk\obj\Debug\net7.0\Silk.csproj.CoreCompileInputs.cache
+C:\Users\trase\source\repos\Silk\Silk\bin\Debug\net7.0\Silk.deps.json
+C:\Users\trase\source\repos\Silk\Silk\bin\Debug\net7.0\Silk.dll
+C:\Users\trase\source\repos\Silk\Silk\bin\Debug\net7.0\Silk.pdb
+C:\Users\trase\source\repos\Silk\Silk\obj\Debug\net7.0\Silk.dll
+C:\Users\trase\source\repos\Silk\Silk\obj\Debug\net7.0\refint\Silk.dll
+C:\Users\trase\source\repos\Silk\Silk\obj\Debug\net7.0\Silk.pdb
+C:\Users\trase\source\repos\Silk\Silk\obj\Debug\net7.0\ref\Silk.dll

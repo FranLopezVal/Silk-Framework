@@ -1,0 +1,22 @@
+{
+  "Server": {
+    "Ip": "127.0.0.1",
+    "Port": 80
+  },
+  "Database": {
+    "Host": ":memory:",
+    "Port": null,
+    "Name": "sqlite",
+    "Connection": "Data Source=:memory:;Version=3;New=True;"
+  },
+  "Logging": {
+    "EnableMonitor": true,
+    "EnableConsole": true
+  },
+  "Certificate": {
+    "KeyPath": "certs/key.pem",
+    "CertPath": "certs/cert.pem"
+  },
+  "UniqueThread": false,
+  "Locale": "en-US"
+}
